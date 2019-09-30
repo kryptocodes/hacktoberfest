@@ -37,17 +37,12 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-10 mx-auto">
             <h2>
-              Stylish Portfolio is the perfect theme for your next project!
+              About Hacktoberfest
             </h2>
             <p className="lead mb-5">
-              This theme features a flexible, UX friendly sidebar menu and stock
-              photos from our friends
+            Hacktoberfest is an annual event across all of GitHub which is meant to encourage developers to contribute to open source projects.
             </p>
-            <Scroll type="id" element="services" offset={100}>
-              <a className="btn btn-dark btn-xl" href="#services">
-                What We Offer
-              </a>
-            </Scroll>
+            
           </div>
         </div>
       </div>
@@ -124,85 +119,8 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="content-section" id="portfolio">
-      <div className="container">
-        <div className="content-section-heading text-center">
-          <h3 className="text-secondary mb-0">Portfolio</h3>
-          <h2 className="mb-5">Recent Projects</h2>
-        </div>
-        <div className="row no-gutters">
-          <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
-              <span className="caption">
-                <span className="caption-content">
-                  <h2>Stationary</h2>
-                  <p className="mb-0">
-                    A yellow pencil with envelopes on a clean, blue backdrop!
-                  </p>
-                </span>
-              </span>
-              <img className="img-fluid" src={p1} alt="" />
-            </a>
-          </div>
-          <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
-              <span className="caption">
-                <span className="caption-content">
-                  <h2>Ice Cream</h2>
-                  <p className="mb-0">
-                    A dark blue background with a colored pencil, a clip, and a
-                    tiny ice cream cone!
-                  </p>
-                </span>
-              </span>
-              <img className="img-fluid" src={p2} alt="" />
-            </a>
-          </div>
-          <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
-              <span className="caption">
-                <span className="caption-content">
-                  <h2>Strawberries</h2>
-                  <p className="mb-0">
-                    Strawberries are such a tasty snack, especially with a
-                    little sugar on top!
-                  </p>
-                </span>
-              </span>
-              <img className="img-fluid" src={p3} alt="" />
-            </a>
-          </div>
-          <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
-              <span className="caption">
-                <span className="caption-content">
-                  <h2>Workspace</h2>
-                  <p className="mb-0">
-                    A yellow workspace with some scissors, pencils, and other
-                    objects.
-                  </p>
-                </span>
-              </span>
-              <img className="img-fluid" src={p4} alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="content-section bg-primary text-white">
-      <div className="container text-center">
-        <h2 className="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="/#" className="btn btn-xl btn-light mr-4">
-          Click Me!
-        </a>
-        <a href="/#" className="btn btn-xl btn-dark">
-          Look at Me!
-        </a>
-      </div>
-    </section>
-
-    {/* <section id="contact" className="map">
+    
+     <section id="contact" className="map">
       <iframe
         width="100%"
         height="100%"
@@ -216,7 +134,7 @@ const IndexPage = () => (
       <small>
         <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
       </small>
-    </section> */}
+    </section>
 
     <ScrollToTop />
     <Footer />
