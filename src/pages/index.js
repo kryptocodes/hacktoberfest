@@ -5,7 +5,6 @@ import Scroll from '../components/Scroll';
 
 import config from '../../config';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
 import ScrollToTop from '../components/ScrollToTop';
 
 import p1 from '../assets/images/portfolio-1.jpg';
@@ -15,7 +14,6 @@ import p4 from '../assets/images/portfolio-4.jpg';
 
 const IndexPage = () => (
   <Layout>
-    <Header />
 
     <header className="masthead d-flex">
       <div className="container text-center my-auto">
