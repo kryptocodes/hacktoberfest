@@ -15,7 +15,7 @@ const IndexPage = () => (
   <Layout>
     <div className="logo">
     <a href="https://agfoss.netlify.com"><img src={logo}/></a>
-    <a href="https://amrita.edu.in"><div className="alogo"><img src={alogo}/></div></a>
+    <a href="https://amrita.edu.in"><div className="alogo"><img src={alogo} width="50px"/></div></a>
     </div>
     <header className="masthead d-flex">
          <div className="container text-center my-auto">
@@ -24,7 +24,7 @@ const IndexPage = () => (
         <h3 className="mb-5">
           <em>{config.subHeading}</em>
         </h3>
-        <Scroll type="id" element="contact" offset={100}>
+        <Scroll type="id" element="callout" offset={100}>
           <a className="btn btn-primary btn-xl" href="#about">
             Register
           </a>
@@ -82,7 +82,7 @@ const IndexPage = () => (
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d893.3517971060317!2d77.41480472917415!3d8.228518926928366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f71ade80cd81%3A0xaa938f88af79cc54!2sAmirtha+Institutions!5e1!3m2!1sen!2sin!4v1558498717706!5m2!1sen!2sin"></a>
     </small>
   </section>
-  
+
     <ScrollToTop />
     <Footer />
   </Layout>
