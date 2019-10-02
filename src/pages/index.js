@@ -7,16 +7,17 @@ import config from '../../config';
 import Footer from '../components/Footer';
 import ScrollToTop from '../components/ScrollToTop';
 
-import p1 from '../assets/images/portfolio-1.jpg';
-import p2 from '../assets/images/portfolio-2.jpg';
-import p3 from '../assets/images/portfolio-3.jpg';
-import p4 from '../assets/images/portfolio-4.jpg';
+import logo from '../assets/img/foss.png';
+import bg from '../assets/images/hack.svg';
 
 const IndexPage = () => (
   <Layout>
-
+    <div className="logo">
+    <a href="agfoss.netlify.com"><img src={logo}/></a>
+    </div>
     <header className="masthead d-flex">
-      <div className="container text-center my-auto">
+         <div className="container text-center my-auto">
+         <img src={bg}/>
         <h1 className="mb-1">{config.heading}</h1>
         <h3 className="mb-5">
           <em>{config.subHeading}</em>

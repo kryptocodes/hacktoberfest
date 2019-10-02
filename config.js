@@ -6,10 +6,8 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/img/ag.png',
   pathPrefix: `/gatsby-starter-stylish/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'hacktoberfest',
-  subHeading: 'Lets hack for Open Source together  ',
 
   // social
   socialLinks: [
