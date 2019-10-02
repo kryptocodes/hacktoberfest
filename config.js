@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Stylish', // <title>
-  manifestName: 'Stylish',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Hacktober', // <title>
+  manifestName: 'agfoss',
+  manifestShortName: 'foss', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
