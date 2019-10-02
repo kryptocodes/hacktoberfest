@@ -14,20 +14,8 @@ module.exports = {
     {
       icon: 'icon-social-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      icon: 'icon-social-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'icon-social-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
-    },
+      url: 'https://github.com/kryptocodes',
+    }
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  
 };

@@ -9,11 +9,13 @@ import ScrollToTop from '../components/ScrollToTop';
 
 import logo from '../assets/img/foss.png';
 import bg from '../assets/images/hack.svg';
+import alogo from '../assets/img/amrita.png';
 
 const IndexPage = () => (
   <Layout>
     <div className="logo">
-    <a href="agfoss.netlify.com"><img src={logo}/></a>
+    <a href="https://agfoss.netlify.com"><img src={logo}/></a>
+    <a href="https://amrita.edu.in"><div className="alogo"><img src={alogo}/></div></a>
     </div>
     <header className="masthead d-flex">
          <div className="container text-center my-auto">
@@ -22,7 +24,7 @@ const IndexPage = () => (
         <h3 className="mb-5">
           <em>{config.subHeading}</em>
         </h3>
-        <Scroll type="id" element="services" offset={100}>
+        <Scroll type="id" element="contact" offset={100}>
           <a className="btn btn-primary btn-xl" href="#about">
             Register
           </a>
@@ -47,94 +49,40 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section
-      className="content-section bg-primary text-white text-center"
-      id="services"
-    >
-      <div className="container">
-        <div className="content-section-heading">
-          <h3 className="text-secondary mb-0">Services</h3>
-          <h2 className="mb-5">What We Offer</h2>
-        </div>
-        <div className="row">
-          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-screen-smartphone"></i>
-            </span>
-            <h4>
-              <strong>Responsive</strong>
-            </h4>
-            <p className="text-faded mb-0">Looks great on any screen size!</p>
-          </div>
-          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-pencil"></i>
-            </span>
-            <h4>
-              <strong>Redesigned</strong>
-            </h4>
-            <p className="text-faded mb-0">
-              Freshly redesigned for Bootstrap 4.
-            </p>
-          </div>
-          <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-like"></i>
-            </span>
-            <h4>
-              <strong>Favorited</strong>
-            </h4>
-            <p className="text-faded mb-0">
-              Millions of users
-              <i className="fas fa-heart"></i>
-            </p>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-mustache"></i>
-            </span>
-            <h4>
-              <strong>Question</strong>
-            </h4>
-            <p className="text-faded mb-0">I mustache you a question...</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    
     <section className="callout">
       <div className="container text-center">
         <h2 className="mx-auto mb-5">
-          Welcome to
-          <em>your</em>
-          next website!
+          Let's Hack for
+          <em><br/>Open Source</em>
+          <em><br/>together</em>
         </h2>
         <a
-          className="btn btn-primary btn-xl"
-          href="https://github.com/anubhavsrivastava/gatsby-starter-stylish"
+          className="button"
+          href="#"
         >
-          Download Now!
+          <span>Register here</span>
         </a>
       </div>
     </section>
 
     
-     <section id="contact" className="map">
-      <iframe
-        width="100%"
-        height="100%"
-        frameborder="0"
-        scrolling="no"
-        marginheight="0"
-        marginwidth="0"
-        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"
-      ></iframe>
-      <br />
-      <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-      </small>
-    </section>
-
+    <section id="contact" className="map">
+    <iframe
+      width="100%"
+      height="100%"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d893.3517971060317!2d77.41480472917415!3d8.228518926928366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f71ade80cd81%3A0xaa938f88af79cc54!2sAmirtha+Institutions!5e1!3m2!1sen!2sin!4v1558498717706!5m2!1sen!2sin"
+    ></iframe>
+    <br />
+    <small>
+      <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d893.3517971060317!2d77.41480472917415!3d8.228518926928366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f71ade80cd81%3A0xaa938f88af79cc54!2sAmirtha+Institutions!5e1!3m2!1sen!2sin!4v1558498717706!5m2!1sen!2sin"></a>
+    </small>
+  </section>
+  
     <ScrollToTop />
     <Footer />
   </Layout>
