@@ -13,9 +13,13 @@ import alogo from '../assets/img/amrita.png';
 
 const IndexPage = () => (
   <Layout>
-    <div className="logo">
-    <a href="https://agfoss.netlify.com"><img src={logo}/></a>
-    <a href="https://amrita.edu.in"><div className="alogo"><img src={alogo} width="50px"/></div></a>
+    <div className="flex-wrapper">
+    <div className="image-wrapper">
+    <a href="https://agfoss.netlify.com"><img src={logo} align="left" class="scale-image"/></a>
+    </div>
+    <div className="image-wrapper">
+    <a href="https://amrita.edu.in"><img src={alogo} align="right" class="scale-image1"/></a>
+    </div>
     </div>
     <header className="masthead d-flex">
          <div className="container text-center my-auto">
@@ -24,7 +28,7 @@ const IndexPage = () => (
         <h3 className="mb-5">
           <em>{config.subHeading}</em>
         </h3>
-        <Scroll type="id" element="callout" offset={100}>
+        <Scroll type="id" element="register" offset={100}>
           <a className="btn btn-primary btn-xl" href="#about">
             Register
           </a>
@@ -50,7 +54,7 @@ const IndexPage = () => (
     </section>
 
     
-    <section className="callout">
+    <section id="register" className="callout">
       <div className="container text-center">
         <h2 className="mx-auto mb-5">
           Let's Hack for
