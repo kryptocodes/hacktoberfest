@@ -24,7 +24,7 @@ const IndexPage = () => (
     <header className="masthead d-flex">
          <div className="container text-center my-auto">
          <img src={bg}/>
-        <h1 className="mb-1">{config.heading}</h1>
+        <h1 className="mb-1">Amritagiri</h1>
         <h3 className="mb-5">
           <em>{config.subHeading}</em>
         </h3>
@@ -63,7 +63,7 @@ const IndexPage = () => (
         </h2>
         <a
           className="button"
-          href="#"
+          href="https://forms.gle/kSiMSXj1TVivP2y78"
         >
           <span>Register here</span>
         </a>
