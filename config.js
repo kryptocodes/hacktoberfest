@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Hacktober', // <title>
+  siteTitle: 'Agfoss | Hacktoberfest', // <title>
   manifestName: 'agfoss',
   manifestShortName: 'foss', // max 12 characters
   manifestStartUrl: '/',

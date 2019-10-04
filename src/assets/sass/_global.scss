@@ -10,15 +10,22 @@ body {
 
 // Custom Button Size
 .btn-xl {
-  border-radius: 50px;
+  border-radius: 10px;
   padding: 1.25rem 2.5rem;
+  background-color: #7b1fa2;
+  border-color: #7b1fa2;
+  color:unset;
+  color: white;
 }
-
+.row{
+    p{
+      text-align: justify;
+    }
+}
 // Content Section
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
-  background-color: #29204f;
 }
 .content-section-heading {
   h2 {
@@ -28,6 +35,7 @@ body {
     font-size: 1rem;
     text-transform: uppercase;
   }
+  
 }
 
 // Typography

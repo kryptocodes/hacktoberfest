@@ -25,11 +25,8 @@ const IndexPage = () => (
          <div className="container text-center my-auto">
          <img src={bg}/>
         <h1 className="mb-1">Amritagiri</h1>
-        <h3 className="mb-5">
-          <em>{config.subHeading}</em>
-        </h3>
         <Scroll type="id" element="register" offset={100}>
-          <a className="btn btn-primary btn-xl" href="#about">
+          <a className="btn  btn-xl" href="#about">
             Register
           </a>
         </Scroll>
@@ -45,8 +42,11 @@ const IndexPage = () => (
               About Hacktoberfest
             </h2>
             <p className="lead mb-5">
-            Hacktoberfest is an annual event across all of GitHub which is meant to encourage developers to contribute to open source projects.
-            </p>
+            HacktoberFest is an online contributing contest organised by Digital Ocean annually. It is open to everyone and anyone in the community. The user can register themselves anytime between October 1 to 31 October on their <a href="https://https://hacktoberfest.digitalocean.com">official website</a>
+            &nbsp;and make four Pull Requests before 31st.No need to worry if you're a beginner with open source or need help anywhere. 
+            We at Foss@Amritagiri are organising this local meetup for you only. So, don't forget to Register and set your calenders.
+
+See you there!!</p>
             
           </div>
         </div>
@@ -72,6 +72,7 @@ const IndexPage = () => (
 
     
     <section id="contact" className="map">
+    <h1>Location</h1>
     <iframe
       width="100%"
       height="100%"
