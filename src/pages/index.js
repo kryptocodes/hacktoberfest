@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 import ScrollToTop from '../components/ScrollToTop';
 
 import logo from '../assets/img/foss.png';
-import bg from '../assets/images/hack.svg';
+import bg from '../assets/images/hack.png';
 import alogo from '../assets/img/amrita.png';
 
 const IndexPage = () => (
