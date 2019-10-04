@@ -39,14 +39,16 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-10 mx-auto">
             <h2>
-              About Hacktoberfest
+              About HacktoberFest
             </h2>
+            <br/>
             <p className="lead mb-5">
-            HacktoberFest is an online contributing contest organised by Digital Ocean annually. It is open to everyone and anyone in the community. The user can register themselves anytime between October 1 to 31 October on their <a href="https://https://hacktoberfest.digitalocean.com">official website</a>
+            HacktoberFest is an online contributing contest organised by Digital Ocean annually. It is open to everyone and anyone in the community. 
+            The user can register themselves anytime between October 1 to 31 October on their <a href="https://hacktoberfest.digitalocean.com">official website</a>
             &nbsp;and make four Pull Requests before 31st.No need to worry if you're a beginner with open source or need help anywhere. 
             We at Foss@Amritagiri are organising this local meetup for you only. So, don't forget to Register and set your calenders.
 
-See you there!!</p>
+<b>See you there!!</b></p>
             
           </div>
         </div>
@@ -72,7 +74,10 @@ See you there!!</p>
 
     
     <section id="contact" className="map">
+    <div className="mapp">
     <h1>Location</h1>
+    <h2>TBA</h2>
+    </div>
     <iframe
       width="100%"
       height="100%"
