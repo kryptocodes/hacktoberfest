@@ -10,6 +10,7 @@ import ScrollToTop from '../components/ScrollToTop';
 import logo from '../assets/img/foss.png';
 import bg from '../assets/images/hack.png';
 import alogo from '../assets/img/amrita.png';
+import hack from '../assets/img/hack1.svg';
 
 const IndexPage = () => (
   <Layout>
@@ -25,16 +26,27 @@ const IndexPage = () => (
          <div className="container text-center my-auto">
          <img src={bg}/>
         <h1 className="mb-1">Amritagiri</h1>
+        <h2>October 18</h2>
         <Scroll type="id" element="register" offset={100}>
           <a className="btn  btn-xl" href="#about">
             Register
           </a>
         </Scroll>
+      <Scroll type="id" element="about" offset={50}>
+      <div class="scroll-downs">
+        <div class="mousey">
+          <div class="scroller"></div>
+      </div>
+      </div>
+      </Scroll>
       </div>
       <div className="overlay"></div>
     </header>
 
     <section className="content-section bg-light" id="about">
+      <div className="hack">
+        <img src={hack}/>
+      </div>
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-10 mx-auto">

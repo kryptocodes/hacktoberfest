@@ -13,14 +13,15 @@
 
 }
 .scale-image1{
-  margin: -10px;
+  margin:28px;
+  margin-right: 24px;
   width:35%;
   height: auto;
   @media (max-width:700px)
   {
-    width:105%;
-    margin: -29px;
-    margin-right: -1px;
+    width:87%;
+    margin:14px;
+    margin-right: 10px;
   }
 
 }
@@ -55,6 +56,13 @@
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
   }
+  h2{
+    float: right;
+    margin-right: 75px;
+    color:#ffe238;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+  }
   a{
       margin:-10px;
       margin-top: auto;
@@ -65,20 +73,34 @@
     margin-top: -60px;
     float: left;
   }
+  @media (min-width:1440px)
+  {
+    a{
+      margin-top:18px;
+      margin-left:170px;
+    }
+  }
   @media (min-width: 992px) {
     height: 100vh;
     h1 {
       font-size: 4.5rem;
     }
+    
   }
   @media (max-width:900px){
     background-size:160%;
+    min-height: 36rem;
     h1 {
       float: unset;
       color: white;
       font-size: 53px;
       margin: 0;
       padding: 0;
+    }
+    h2{
+      right:-65px;
+      left:0;
+      position: absolute;
     }
     a{
       float:unset;
@@ -90,4 +112,47 @@
       margin-top: -127px;
     }
   }
+}
+.scroll-downs {
+  position: absolute;
+  top: 215px;
+  right:180px;
+  bottom: 0;
+  float: right;
+  margin: auto;
+  
+  width :34px;
+  height: 55px;
+  @media (max-width:900px) {
+    top:500px;
+    right:200px;
+  }
+  @media (min-width:1440px) {
+    right: 295px;
+    top: 150px;
+  }
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
 }
