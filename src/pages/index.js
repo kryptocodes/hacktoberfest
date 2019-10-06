@@ -16,7 +16,7 @@ const IndexPage = () => (
   <Layout>
     <div className="flex-wrapper">
     <div className="image-wrapper">
-    <a href="https://agfoss.netlify.com"><img src={logo} align="left" class="scale-image"/></a>
+    <a href="https://agfoss.tech"><img src={logo} align="left" class="scale-image"/></a>
     </div>
     <div className="image-wrapper">
     <a href="https://amrita.edu.in"><img src={alogo} align="right" class="scale-image1"/></a>
