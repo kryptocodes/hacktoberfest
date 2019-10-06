@@ -123,6 +123,7 @@
   width :34px;
   height: 55px;
   @media (max-width:900px) {
+    right:47%;
   }
   @media (min-width:1440px) {
     right: 295px;
@@ -155,4 +156,6 @@
 
 .btn{
   position: absolute;
+  margin-top: 15%;
+  margin-left: 12.7%;
 }
