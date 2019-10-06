@@ -87,7 +87,7 @@
   }
   @media (max-width:900px){
     background-size:160%;
-    min-height: 36rem;
+    min-height: 42rem;
     h1 {
       float: unset;
       color: white;
@@ -109,13 +109,13 @@
     img{
       float: unset;
       width: 100%;
-      margin-top: -127px;
+      margin-top: -290px;
     }
   }
 }
 .scroll-downs {
   position: absolute;
-  top: 215px;
+  top: 90%;
   right:180px;
   bottom: 0;
   float: right;
@@ -126,7 +126,6 @@
   }
   @media (min-width:1440px) {
     right: 295px;
-    top: 150px;
   }
 }
 .mousey {
