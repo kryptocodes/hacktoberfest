@@ -25,9 +25,11 @@ const IndexPage = () => (
     <header className="masthead d-flex">
          <div className="container text-center my-auto">
          <img src={bg}/>
+         <div ClassName="group">
         <h1 className="mb-1">Amritagiri</h1>
         <h2>October 18</h2>
         <Scroll type="id" element="register" offset={100}>
+          
           <a className="btn  btn-xl" href="#about">
             Register
           </a>
@@ -39,6 +41,7 @@ const IndexPage = () => (
       </div>
       </div>
       </Scroll>
+      </div>
       </div>
       <div className="overlay"></div>
     </header>

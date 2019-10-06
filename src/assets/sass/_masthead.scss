@@ -64,9 +64,7 @@
     font-family: 'Anton', sans-serif;
   }
   a{
-      margin:-10px;
-      margin-top: auto;
-      margin-left:90px;
+      
   }
   img{
     width: 58%;
@@ -103,8 +101,10 @@
       position: absolute;
     }
     a{
-      float:unset;
-      margin: 10px;
+      margin-top:18%;
+      margin-left:-75px;
+      position: absolute;
+      float:left;
   }
     img{
       float: unset;
@@ -120,12 +120,9 @@
   bottom: 0;
   float: right;
   margin: auto;
-  
   width :34px;
   height: 55px;
   @media (max-width:900px) {
-    top:500px;
-    right:200px;
   }
   @media (min-width:1440px) {
     right: 295px;
@@ -155,4 +152,8 @@
   0% { opacity: 0; }
   10% { transform: translateY(0); opacity: 1; }
   100% { transform: translateY(15px); opacity: 0;}
+}
+
+.btn{
+  position: absolute;
 }
