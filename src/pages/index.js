@@ -84,7 +84,7 @@ const IndexPage = () => (
           <h2>Venue</h2>
           <h3>Amrita College of Engineering and Technology,</h3>
           <div className="fs-5">
-          Erachakulam,Nagercoil
+          Erachakulam,Nagercoil,
           </div>
           <div className="fs-6">
           Tamilnadu, India - 629 901
