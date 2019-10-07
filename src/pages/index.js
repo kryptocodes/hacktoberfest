@@ -74,7 +74,7 @@ const IndexPage = () => (
         <div className="col-lg-8 order-2 p-4">
           <iframe
             className="location-map"
-            src="https://maps.google.com/maps?q=Amrita%20college%20of%20engineering%20and%20technology&t=&z=17&ie=UTF8&iwloc=&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.2573629327285!2d77.41469173226164!3d8.229470569706223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa938f88af79cc54!2sAmrita%20College%20of%20Engineering%20%26%20technology!5e0!3m2!1sen!2sin!4v1570422190984!5m2!1sen!2sin"
             frameBorder="0"
             allowFullScreen={false}
           >
