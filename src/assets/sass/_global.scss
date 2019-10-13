@@ -13,7 +13,11 @@ body {
   border-radius: 10px;
   padding: 1.25rem 2.5rem;
   background-color: #7b1fa2;
-  border-color: #7b1fa2;
+  color:unset;
+  color: white;
+}
+.btn-xl:hover {
+  background-color: #1089ff;
   color:unset;
   color: white;
 }
